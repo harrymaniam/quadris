@@ -24,6 +24,7 @@ Gameplay is done via the terminal. The player must input the below commands to c
 To make the game more simpler for the player, the first few letters that correspond to a unique command may be inputted
 ex. you may enter "lef" instead of "left" however you may not input "le" as there is also "levelup".
 Also, you may shove on multiplier onto the front of a command.
+
 ex. you can input "5ri" to move the peice 5 units right
 
 <h1>Command-line Interface</h1>
@@ -32,4 +33,5 @@ The following command may be inputted when running quadris on the terminal to mo
 * "-seed ###" allows you to set the seed for the psuedo random number generator(PRNG) used to generate the next peice
 * "-scriptfile xxx" allows you to load a sequence of peices from a text file rather than using random peice generation
 * "-startlevel n" allows you to set the start level before playing rather than using the "levelup" command during the game
+
 ex. on the terminal run "./quadris -text -seed 314159" to play text only mode and also set the PRNG's seed to 314159
