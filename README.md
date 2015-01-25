@@ -4,7 +4,7 @@ Created by Harry Sivasubramaniam and Jimmy Guo
 Quadris is a non-real-time version of Tetris developed in C++. 
 It is made to be played in the command line but also supports graphical display using XWindows
 
-Compiling and Running this Project
+<h1>Compiling and Running this Project</h1>
 1) You must be on a linux based operating system with X11 library and a C++ compiler installed (I used g++)
 2) Navigate to the main directory on the terminal "/quadris" and run the "make" command to compile the project
 3) To play the game, run "./quadris" on the terminal
